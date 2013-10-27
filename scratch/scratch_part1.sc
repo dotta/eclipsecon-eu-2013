@@ -24,4 +24,8 @@ object scratch_part1 {
 
   val timeS3 = new TimeScala(2,30)                //> timeS3  : part1.TimeScala = TimeScala(2,30)
   timeS.equals(timeS3)                            //> res5: Boolean = false
+
+  val timeS4 = TimeScala()                        //> timeS4  : part1.TimeScala = TimeScala(0,0)
+  val timeS5 = TimeScala(hours = 10)              //> timeS5  : part1.TimeScala = TimeScala(10,0)
+  val timeS6 = TimeScala(minutes = 40)            //> timeS6  : part1.TimeScala = TimeScala(0,40)
 }
